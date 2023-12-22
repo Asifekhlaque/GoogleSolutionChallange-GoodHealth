@@ -6,5 +6,5 @@
 - Bootstrap 4.6
 - HTML CSS JavaScript
 ## Team Member
-- Asif Ekhalque (Tech)
+- Asif Ekhalque (Tech Member and Project Head)
 - Khushi (Contant Writer)
