@@ -4,7 +4,7 @@
 ![image](https://github.com/Asifekhlaque/GoogleSolutionChallange-GoodHealth/assets/132199879/eda3be4e-c5d4-432f-a4e5-c83d7d1ec458)
 ## Technology
 - Bootstrap 4.6
-- HTML CSS JavaScript
+- HTML , CSS & JavaScript
 - Google Maps API //Google Technology
 - Google Cloud or Fire base for Hosting //Google Technology
 ## Team Member
