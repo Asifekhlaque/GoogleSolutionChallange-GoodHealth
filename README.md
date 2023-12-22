@@ -10,4 +10,5 @@
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
 - Khushi (Content Writer and Designing Head)
+khushik28pvtt@gmail.com
 # Objective of this Solution
