@@ -12,3 +12,15 @@
 - Khushi (Content Writer and Designing Head)
 khushik28pvtt@gmail.com
 # Objective of this Solution
+
+## Meeting List
+Meeting 1st https://meet.google.com/rkk-jrpp-gut
+### Duration
+7 o'clock to 8 o'clock
+- Objective introduction of the project and detail ideas about the project.
+- It includes overall plan about how we are going to proceed the whole project. 
+### Major highlights of this meeting
+- Objective clarification
+- Designing
+- Planning for the future move
+- Team finalisation
