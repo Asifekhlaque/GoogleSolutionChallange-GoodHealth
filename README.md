@@ -6,6 +6,7 @@
 - Bootstrap 4.6
 - HTML CSS JavaScript
 - Google Maps API
+- Google Cloud or Fire base for Hosting
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
 - Khushi (Contant Writer)
