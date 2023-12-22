@@ -9,4 +9,5 @@
 - Google Cloud or Fire base for Hosting //Google Technology
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
-- Khushi (Contant Writer)
+- Khushi (Content Writer and Designing Head)
+# Objective of this Solution
