@@ -5,6 +5,7 @@
 ## Technology
 - Bootstrap 4.6
 - HTML CSS JavaScript
+- Google Maps API
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
 - Khushi (Contant Writer)
