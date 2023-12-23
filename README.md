@@ -16,7 +16,9 @@ khushik28pvtt@gmail.com
 - Giving awareness to the society about the blood donation
 - Giving society to a trusted platform where they can educate about the blood donation and how they can get the blood if it is in emergency
 ## Meeting List
-Meeting 1st https://meet.google.com/rkk-jrpp-gut
+Meeting 1st
+### Date: 22/12/2023
+ https://meet.google.com/rkk-jrpp-gut
 ### Duration
 7 o'clock to 8 o'clock
 - Objective introduction of the project and detail ideas about the project.
