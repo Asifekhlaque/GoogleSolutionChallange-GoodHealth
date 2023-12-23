@@ -18,7 +18,7 @@ khushik28pvtt@gmail.com
 ## Meeting List
 Meeting 1st
 ### Date: 22/12/2023
- https://meet.google.com/rkk-jrpp-gut
+ 🔗 https://meet.google.com/rkk-jrpp-gut
 ### Duration
 7 o'clock to 8 o'clock
 - Objective introduction of the project and detail ideas about the project.
