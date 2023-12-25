@@ -4,6 +4,7 @@
 ![image](https://github.com/Asifekhlaque/GoogleSolutionChallange-GoodHealth/assets/132199879/eda3be4e-c5d4-432f-a4e5-c83d7d1ec458)
 ## Technology
 - Bootstrap 4.6
+- aos: Animate on scroll library: https://github.com/michalsnik/aos
 - HTML , CSS & JavaScript // Angular optional
 - Google Maps API //Google Technology
 - Fire base for Hosting //Google Technology
