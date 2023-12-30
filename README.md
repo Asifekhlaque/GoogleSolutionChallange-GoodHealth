@@ -30,3 +30,4 @@ Meeting 1st
 - Designing
 - Planning for the future move
 - Team finalisation
+# Even drop a blood is a lifeline, a gift that transcends boundaries and save lives.
