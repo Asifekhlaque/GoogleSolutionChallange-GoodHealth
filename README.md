@@ -10,10 +10,25 @@
 - Fire base for Hosting //Google Technology
 https://firebase.google.com
 ## Team Member
-- Asif Ekhalque (Tech Member||Project Head|| Content Writer||Designing Head)
+- Asif Ekhalque (Tech Member and Project Head)
 📧asifekhlaque33@gmail.com
+- Khushi (Content Writer and Designing Head)
+📧khushik28pvtt@gmail.com
 # Objective of this Solution
 - Giving awareness to the society about the blood donation
 - Giving society to a trusted platform where they can educate about the blood donation and how they can get the blood if it is in emergency
+## Meeting List
+Meeting 1st
+### Date: 22/12/2023
+ 🔗 https://meet.google.com/rkk-jrpp-gut
+### Duration
+7 o'clock to 8 o'clock
+- Objective introduction of the project and detail ideas about the project.
+- It includes overall plan about how we are going to proceed the whole project. 
+### Major highlights of this meeting
+- Objective clarification
+- Designing
 - Planning for the future move
+- Team finalisation
 #### Even drop a blood is a lifeline, a gift that transcends boundaries and save lives.
+Opensource API: https://leafletjs.com/
