@@ -6,10 +6,9 @@
 - Bootstrap 4.6
 - aos: Animate on scroll library: https://github.com/michalsnik/aos
 - HTML , CSS & JavaScript // Angular optional
-- Google Maps API //Google Technology
+- Opensource API: https://leafletjs.com/
 - Fire base for Hosting //Google Technology
 https://firebase.google.com
-- Opensource API: https://leafletjs.com/
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
 📧asifekhlaque33@gmail.com
