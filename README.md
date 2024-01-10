@@ -5,7 +5,7 @@
 ## Technology
 - Bootstrap 4.6
 - aos: Animate on scroll library: https://github.com/michalsnik/aos
-- HTML , CSS & JavaScript // Angular optional
+- HTML , CSS & JavaScript
 - Opensource API: https://leafletjs.com/
 - Fire base for Hosting //Google Technology
 https://firebase.google.com
