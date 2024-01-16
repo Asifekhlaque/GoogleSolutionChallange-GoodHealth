@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoogleSolutionChallange-GoodHealth_CodeWell Innovators</title>
+  <link rel="icon" href="img/google_developer.png" type="image/icon">
+  <!-- Aos CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- leaflet Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Main CSS -->
+
+  <style>
+    /* Core Css */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .border_logo {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .Landing-Title {
+      font-size: 80px;
+      margin-top: 100px;
+    }
+
+    /* Map Section */
+    #map {
+      height: 400px;
+      width: 400px;
+      margin-top: 20px;
+      border: 2px solid rgb(0, 0, 0);
+    }
+
+    .search-container {
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* Map Section End */
+    /* Important Questions Section */
+    .Import-Ques p {
+      color: #fff;
+    }
+
+    .faq {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+
+    .faq-section {
+      width: 80%;
+    }
+
+    .accordion {
+      background-color: #2D2D2D;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 30px;
+      transition: 0.4s;
+      margin-top: 10px;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #9f9f9f;
+    }
+
+    .accordion:after {
+      content: '\002B';
+      color: #595959;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: #2D2D2D;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .faq-text {
+      text-align: center;
+    }
+
+    /* Footer Section */
+    .alineText{
+      text-align: center;
+    }
+    footer {
+      margin-top: 20px;
+      background-color: #2D2D2D;
+      padding: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+    }
+
+    .grid-text {
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+    }
+
+    .f-part {
+      margin: 30px;
+    }
+
+    .f-text {
+      font-size: 15px;
+      margin-left: 30px;
+    }
+
+    #bnt-a:hover {
+      background-color: rgb(165, 7, 7);
+    }
+  </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #1A73E8;">
+  <!--todo Navigation Bar color change can occur here -->
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5"> <!-- fixed-top -->
+    <a class="navbar-brand" href="#">
+      <img src="https://i.ibb.co/MhzXNZ9/Whats-App-Image-2024-01-16-at-9-09-55-PM.jpg%22" alt="Logo" width="25" height="25" class="border_logo d-inline-block align-text-top">CodeWell Innovators</a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="#landing">Home</a>
+        <a class="nav-link" href="#Medical_shops_and_hospitals_search">Medical shops and hospitals search</a>
+        <a class="nav-link" href="#Emergency-helpline">Emergency Helpline</a>
+        <a class="nav-link" href="#Benefits-of-blood-donation">Benefits of blood donation</a>
+        <a class="nav-link " href="#Important-Questions">Important Questions</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Bootstrap Navbar End -->
+  <!-- Body Start -->
+  <!-- Landing Page -->
+  <div class="LandingPage-container d-flex justify-content-center align-items-center m-2" id="landing"
+    data-aos="zoom-in" style="color: #fff; height: 100vh;">
+    <div class="text-center d-flex flex-column align-items-start justify-content-center">
+      <h1 class="Landing-Title">Lifeblood Connect</h1>
+      <p class="lead">#We Share Wifi Why Not Blood</p>
+      <div class="btn-div d-flex justify-content-start">
+        <a href="#Emergency-helpline" class="btn btn-danger">Contact for help</a>
+      </div>
+      <div class="p-div d-flex justify-content-start align-items-center">
+        <p>Google solution Challenge 2024</p>
+        <img src="https://i.ibb.co/VMwwxx7/google-developer.png" width="60" style="margin-bottom: 19px; margin-left: 10px;" alt="image">
+      </div>
+    </div>
+  </div>
+  <!-- Landing Page End -->
+  <!-- Medical shops and hospitals search -->
+  <center data-aos="zoom-in">
+    <h1 style="color: #fff;" id="Medical_shops_and_hospitals_search">Common Questions</h1>
+  </center>
+  <div data-aos="zoom-in" class="m-2">
+    <div class="search-container d-flex justify-content-center align-items-center">
+      <label for="location" style="color: #fff; margin-right: 10px; font-size: 20px;">Enter Your Location:</label>
+      <input type="text" id="location" placeholder="Type your location">
+      <button onclick="searchHospitals()" class="btn btn-danger">Search</button>
+    </div>
+    <div class="map-contaner d-flex justify-content-center align-items-center">
+      <div class="m-3" id="map"></div>
+    </div>
+  </div>
+  <!-- Blood Camps End -->
+  <!-- Emergency Helpline -->
+  <center data-aos="zoom-in">
+    <h1 style="color: #fff;" id="Emergency-helpline">Emergency-helpline</h1>
+  </center>
+  <div class="Emergency-helpline-div d-flex justify-content-center align-items-center" data-aos="zoom-in">
+    <div class="card m-4">
+      <h2 class="card-header">Emergency Helpline Number List</h2>
+      <div class="card-body m-4">
+        <h5 class="card-title">Emergency Helpline Number 1</h5>
+        <a href="tel:95104 00158" class="btn btn-danger">95104 00158</a>
+        <h5 class="card-title">Emergency Helpline Number 2</h5>
+        <a href="tel:6202 193 104" class="btn btn-danger">6202 193 104</a>
+        <h5 class="card-title">Emergency Helpline Number 3</h5>
+        <a href="tel:76438 67801" class="btn btn-danger">76438 67801</a>
+        <h5 class="card-title">Emergency Helpline Number 4</h5>
+        <a href="tel:87899 90718" class="btn btn-danger">87899 90718</a>
+        <h5 class="card-title">Emergency Helpline Number 5</h5>
+        <a href="tel:95042 56044" class="btn btn-danger">95042 56044</a>
+      </div>
+    </div>
+  </div>
+  <!-- Emergency Helpline End -->
+
+  <!-- Benefits of blood donation -->
+  <center data-aos="zoom-in m-5">
+    <h1 style="color: #fff;" id="Benefits-of-blood-donation">Benefits Of Blood Donation</h1>
+  </center>
+  <div class="row row-cols-1 row-cols-md-3 m-4" data-aos="zoom-in" >
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://media.licdn.com/dms/image/D4D12AQEqkwJ89cBzaw/article-cover_image-shrink_600_2000/0/1688207534323?e=2147483647&v=beta&t=dR_GISoLzoIMsppp2TYrI2wXgkJ21V0oxP7lkJqS3ow" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Saving Lives: The Power of Blood Donation</h5>
+          <p class="card-text">Discover the transformative impact of blood donation. Each selfless act contributes to a
+            powerful force for good, saving lives and creating a legacy of compassion that echoes through communities.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://www.afro.who.int/sites/default/files/2020-06/Blood%20donor%20in%20the%20process%20of%20giving%20save%20blood..jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Health Heroes: How Donating Blood Boosts Your Well-being</h5>
+          <p class="card-text">Donating blood not only saves lives but also boosts your well-being. It enhances
+            cardiovascular health, stimulates the production of new blood cells, and fosters a sense of purpose and
+            fulfillment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://www.youthhelpingtrust.org/wp-content/uploads/2023/08/skilled-focused-young-phlebotomy-technician-applying-tourniquet-male-patient-arm-venipuncture-1200x580.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Community Impact: The Ripple Effect of Blood Donation</h5>
+          <p class="card-text">Blood donation creates a ripple effect, impacting individuals, families, and communities.
+            Each donation saves lives, fosters a sense of unity, and contributes to the overall well-being of society.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://img1.parentune.com/images/blogs/World-Blood-Donor-Day-2022---Give-the-Gift-of-Life-Through-Blood-Donation-1655183718.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <h5 class="card-title">The Gift of Life: How Blood Donation Creates a Positive Chain Reaction</h5>
+          <p class="card-text">"The Gift of Life through blood donation sparks a positive chain reaction, connecting
+            donors with recipients, fostering community bonds, and saving lives. Each selfless act ripples with hope,
+            compassion, and healing."</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://healthmatters.nyp.org/wp-content/uploads/2021/12/nybc-blood-donation-hero.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <h5 class="card-title">Emergency Preparedness: Why Blood Donation Is Crucial in Crisis</h5>
+          <p class="card-text">During emergencies, blood donation is crucial for ensuring a stable and readily available
+            blood supply. It becomes a lifeline, aiding in rapid response, saving lives, and reinforcing community
+            resilience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://etimg.etb2bimg.com/photo/71394121.cms" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <h5 class="card-title">Eco-Friendly Altruism: How Blood Donation Promotes Sustainable Community Health</h5>
+          <p class="card-text">Blood donation is a form of eco-friendly altruism, promoting sustainable community health
+            by reducing medical waste. Each donation not only saves lives but contributes to a more environmentally
+            conscious healthcare system.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Benefits of blood donation End -->
+  <!-- Important Questions -->
+  <center data-aos="zoom-in">
+    <h1 style="color: #fff;" id="Important-Questions">Common Questions</h1>
+  </center>
+  <div class="Import-Ques d-flex justify-content-center align-items-center" data-aos="zoom-in">
+
+    <div class="faq-section">
+      <div class="faq-section-sub">
+        <button class="accordion">Why donate blood?</button>
+        <div class="panel">
+          <p>Donate blood to save lives. Your donation helps people facing emergencies, surgeries, and illnesses. It's a
+            simple act that makes a big difference—giving the gift of life to those in need.</p>
+        </div>
+
+        <button class="accordion">What motives individuals to donate blood?
+        </button>
+        <div class="panel">
+          <p>People donate blood for various reasons, often driven by a desire to help others in need. Common motives
+            include a sense of community, empathy for patients, altruism, and the satisfaction of knowing they can make
+            a positive impact on someone's life.</p>
+        </div>
+
+        <button class="accordion">Who can donate blood?
+        </button>
+        <div class="panel">
+          <p>In simple words, most healthy adults can donate blood. You usually need to be at least 16 or 17 years old,
+            weigh enough, and be in good health. Always check local blood donation guidelines for specific requirements.
+          </p>
+        </div>
+
+        <button class="accordion">Who is eligible to donate blood?
+        </button>
+        <div class="panel">
+          <p>people who are generally healthy, at least 16 or 17 years old (depending on local regulations), and meet
+            weight requirements are eligible to donate blood. Specific eligibility criteria may vary, so check with your
+            local blood donation center for details.</p>
+        </div>
+
+        <button class="accordion">How does blood donation help?
+        </button>
+        <div class="panel">
+          <p>Blood donation helps by saving lives. When you donate blood, it can be used in various medical situations
+            like surgeries, accidents, or for people with certain illnesses. Your donation provides a crucial resource
+            that hospitals and healthcare professionals rely on to treat patients and ensure their well-being.</p>
+        </div>
+
+        <button class="accordion">What happens to donate bloods?
+        </button>
+        <div class="panel">
+          <p>When you donate blood, a healthcare professional will use a sterile needle to draw a small amount of your
+            blood. This blood is then stored and later used to help people who are sick or injured, saving lives and
+            promoting community health.</p>
+        </div>
+
+        <button class="accordion">Is it safe to donate blood?
+        </button>
+        <div class="panel">
+          <p>Yes, donating blood is safe. Blood donation centers follow strict guidelines to ensure the process is safe
+            for donors. They use sterile equipment, and trained professionals oversee the process to protect your
+            well-being.</p>
+        </div>
+
+        <button class="accordion">How frequently can someone donate blood?
+        </button>
+        <div class="panel">
+          <p>A person can usually donate blood every 56 days. This allows the body enough time to replenish the lost
+            blood and ensures the donor's well-being.</p>
+        </div>
+
+        <button class="accordion">Are there any health benefits to donating blood?
+        </button>
+        <div class="panel">
+          <p>Yes, there are health benefits to donating blood. It helps reduce the risk of certain diseases, maintains
+            healthy iron levels, and stimulates the production of new blood cells, promoting overall well-being.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Important Questions End -->
+  <!-- Footer Start -->
+  <footer>
+    <p class="grid-text alineText">CodeWell Innovators</p>
+    <p class="grid-text alineText">@Good Health and Well Being</p>
+    <p class="grid-text alineText">Team Members</p>
+    <p class="grid-text alineText">Indian Institute of Business Management,Patna</p>
+    <p class="grid-text alineText">GDSC Indian Institute of Business Management,Patna</p>
+    <div class="grid">
+      <div class="grid-1">
+        <p class="grid-text">Khushi</p>
+        <p class="grid-text">Content Writer and Designing Head</p>
+        <p class="grid-text">BCA Student</p>
+      </div>
+      <div class="grid-1">
+        <p class="grid-text">Asif Ekhalque </p>
+        <p class="grid-text">Tech Member and Project Head</p>
+        <p class="grid-text">BCA Student</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Map Section Start JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([51.5, -0.09]).addTo(map)
+      .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+      .openPopup();
+
+    function searchHospitals() {
+      // Retrieve the location from the input field
+      var location = document.getElementById('location').value;
+
+      // Use the location to search for nearby hospitals (you'll need to implement this part)
+
+      // For now, let's just move the map to the entered location
+      if (location) {
+        var url = 'https://nominatim.openstreetmap.org/search?format=json&q=' + location;
+
+        fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            if (data.length > 0) {
+              var newLocation = [data[0].lat, data[0].lon];
+              map.setView(newLocation, 13);
+            } else {
+              alert('Location not found. Please try again.');
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while searching. Please try again.');
+          });
+      } else {
+        alert('Please enter a location.');
+      }
+    }
+  </script>
+  <!-- Map Section End -->
+
+  <!-- Accordion -->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script>
+  <!-- Aos JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000
+    });
+  </script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
