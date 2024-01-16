@@ -31,3 +31,88 @@ Meeting 1st
 - Planning for the future move
 - Team finalisation
 #### Even drop a blood is a lifeline, a gift that transcends boundaries and save lives.
+# Lifeblood Connect - Google Solution Challenge 2024
+
+## Project Overview
+
+**Lifeblood Connect** is a web application developed by **CodeWell Innovators** for the Google Solution Challenge 2024. This project aims to address the critical need for efficient blood donation and medical assistance by creating a platform that connects donors, medical facilities, and individuals in emergency situations.
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Technologies Used](#technologies-used)
+5. [How to Contribute](#how-to-contribute)
+6. [Acknowledgements](#acknowledgements)
+7. [License](#license)
+
+## Introduction
+
+Lifeblood Connect focuses on several key areas:
+
+- **Medical Shops and Hospitals Search**: Users can search for nearby medical shops and hospitals, facilitating quick access to essential healthcare services.
+
+- **Emergency Helpline**: A dedicated section provides emergency helpline numbers for immediate assistance during crises.
+
+- **Benefits of Blood Donation**: Information on the positive impact of blood donation, encouraging users to contribute to the community's well-being.
+
+- **Important Questions**: Common questions related to blood donation are addressed, providing users with essential knowledge.
+
+## Features
+
+- Responsive design for optimal user experience on various devices.
+- Interactive map for locating medical facilities.
+- Emergency helpline numbers with direct call functionality.
+- Informative content on the benefits of blood donation.
+- FAQ section answering important questions about blood donation.
+- Team information and project details in the footer.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/CodeWell-Innovators/Lifeblood-Connect.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Lifeblood-Connect
+   ```
+
+3. Open the `index.html` file in your preferred web browser.
+
+4. Explore different sections of the website, such as the landing page, medical facilities search, emergency helpline, benefits of blood donation, and important questions.
+
+## Technologies Used
+
+- **HTML5**: Markup language for structuring the content.
+- **CSS3**: Styling language for designing the user interface.
+- **JavaScript**: Programming language for dynamic content and map functionality.
+- **Bootstrap**: Front-end framework for responsive design.
+- **Leaflet**: JavaScript library for interactive maps.
+- **AOS**: Library for smooth scroll animations.
+
+## How to Contribute
+
+If you'd like to contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Create a pull request.
+
+## Acknowledgements
+
+We would like to express our gratitude to the Google Solution Challenge for providing this opportunity to showcase our innovative solution. Special thanks to our team members and the supportive community.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to explore the project, contribute, and make it even better! If you have any questions or suggestions, please open an issue or reach out to us. Thank you for your interest in **Lifeblood Connect**!
