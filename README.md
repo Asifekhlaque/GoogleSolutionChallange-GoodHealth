@@ -39,13 +39,13 @@ Meeting 1st
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Getting Started](#getting-started)
-4. [Technologies Used](#technologies-used)
-5. [How to Contribute](#how-to-contribute)
-6. [Acknowledgements](#acknowledgements)
-7. [License](#license)
+1. Introduction
+2. Features 
+3. Getting Started
+4. Technologies Used
+5. How to Contribute
+6. Acknowledgements
+7. License
 
 ## Introduction
 
