@@ -5,13 +5,15 @@
 ## Technology
 - Bootstrap 4.6
 - aos: Animate on scroll library: https://github.com/michalsnik/aos
-- HTML , CSS & JavaScript
-- Opensource API: https://leafletjs.com/
+- HTML , CSS & JavaScript // Angular optional
+- Google Maps API //Google Technology
 - Fire base for Hosting //Google Technology
 https://firebase.google.com
 ## Team Member
 - Asif Ekhalque (Tech Member and Project Head)
 📧asifekhlaque33@gmail.com
+- Khushi (Content Writer and Designing Head)
+📧khushik28pvtt@gmail.com
 # Objective of this Solution
 - Giving awareness to the society about the blood donation
 - Giving society to a trusted platform where they can educate about the blood donation and how they can get the blood if it is in emergency
